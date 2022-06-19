@@ -1,2 +1,3 @@
-# Projetos do Curso em Video
- Aqui estão os exercicios do Curso em Video
+# Projetos dos Cursos
+ Aqui estão os exercícios do Curso em Video e Udemy
+
