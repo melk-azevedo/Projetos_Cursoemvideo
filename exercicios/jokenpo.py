@@ -32,6 +32,7 @@ while rodada < 3:
         jogador = 'TESOURA'
     else:
         print('Jogada inválida')
+        break
 
     print('JO')
     sleep(1)
@@ -62,5 +63,7 @@ while rodada < 3:
 print(f'O resultado foi computador {pont_c} vs {pont_j} jogador.\n')
 if pont_c > pont_j:
     print('Computador ganhou!')
-else:
+elif pont_j > pont_c:
     print('Parabéns jogador ganhou!')
+else:
+    print('Não houve ganhadores!')
