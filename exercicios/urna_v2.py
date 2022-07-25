@@ -44,7 +44,7 @@ if resposta == 'sim':
             voto_nulo += 1
         elif voto == 0:
             voto = False
-            print("Finalizando.")
+            print("Finalizando a contagem dos votos.")
             sleep(3)
         else:
             print('Opção inválida')
