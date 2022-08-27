@@ -1,6 +1,3 @@
-from time import sleep
-
-
 valor = int(input('Qual o valor que você quer sacar R$'))
 total = valor
 ced = 50
@@ -11,8 +8,6 @@ while True:
         totalced += 1
     else:
         if totalced > 0:
-            print('Contando as notas.')
-            sleep(2)
             print(f'Foram {totalced} cédulas de R${ced}')
         if ced == 50:
             ced = 20
